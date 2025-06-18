@@ -43,6 +43,7 @@ main {
   height: 100px;
   background-color: #080B12;
   text-align: end;
+  padding: 35px;
 }
 
 .container {
@@ -112,7 +113,7 @@ main {
   background-color: white;
 }
 
-.header a {
+.header .btn {
   color: white;
   text-decoration: none;
   border: 1px solid white;
@@ -128,6 +129,9 @@ main {
   width: 200px;
 }
 
+.popular .cover-song {
+  border-radius: 50%;
+}
 
 
 /* utility */
