@@ -36,7 +36,6 @@ main {
   height: 100%;
   width: calc(100vw - 250px);
   background-color: #141922;
-  color: white;
   overflow-y: auto;
 }
 
@@ -99,10 +98,29 @@ main {
   padding: 10px 30px;
 }
 
+.title {
+  color: white;
+}
+
+.cover-song {
+  width: 200px;
+}
+
+
+
+/* utility */
 .text-center {
   text-align: center;
 }
 
+.text-gray {
+  color: gray;
+}
+
 .py-20 {
   padding: 20px 0;
+}
+
+.p-20 {
+  padding: 20px;
 }
