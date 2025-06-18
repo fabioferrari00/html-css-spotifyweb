@@ -70,6 +70,15 @@ main {
   font-size: 30px;
 }
 
+.menu ul li a {
+  color: gray;
+  text-decoration: none;
+}
+
+.menu ul li a:hover {
+  color: white;
+}
+
 .playlist h2 {
   color: white;
   margin-top: 30px;
@@ -88,6 +97,19 @@ main {
 
 .playlist ul li {
   padding-top: 20px;
+}
+
+.playlist ul li a {
+  color: gray;
+  text-decoration: none;
+}
+
+.playlist ul li a:hover {
+  color: white;
+}
+
+.playlist ul li a i:hover {
+  background-color: white;
 }
 
 .header a {
