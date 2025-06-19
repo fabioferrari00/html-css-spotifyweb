@@ -25,6 +25,7 @@ main {
   width: 250px;
   background-color: black;
   height: 100%;
+  padding-left: 20px;
 }
 
 #sidebar .logo {
@@ -68,11 +69,13 @@ main {
 
 .col-60 {
   width: 60%;
+  height: 100px;
 }
 
 .menu ul li {
   color: gray;
   padding-top: 20px;
+  list-style: none;
 }
 
 .menu ul li i {
@@ -84,7 +87,17 @@ main {
   text-decoration: none;
 }
 
-.menu ul li a:hover {
+.menu ul li:hover {
+  color: white;
+  border-left: 2px solid #ADFF2F;
+}
+
+.container div a {
+  text-decoration: none;
+  color: gray;
+}
+
+.container div a:hover {
   color: white;
 }
 
@@ -106,6 +119,7 @@ main {
 
 .playlist ul li {
   padding-top: 20px;
+  list-style: none;
 }
 
 .playlist ul li a {
@@ -129,6 +143,15 @@ main {
   padding: 10px 30px;
 }
 
+.header .btn:hover {
+  font-size: 1.2rem;
+}
+
+.info-song i:hover {
+  color: white;
+}
+
+
 .title {
   color: white;
 }
@@ -151,8 +174,16 @@ main {
   text-align: center;
 }
 
+.text-end {
+  text-align: end;
+}
+
 .text-gray {
   color: gray;
+}
+
+.gap-20 {
+  gap: 20px;
 }
 
 .py-20 {
@@ -176,5 +207,97 @@ main {
 }
 
 .align-center {
-  align-items: center
+  align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.player-controller-time {
+  width: 100%;
+  transform: translateY(50%);
+}
+
+.player-time {
+  color: white;
+}
+
+.player-bar {
+  width: 90%;
+  background-color: gray;
+  height: 5px;
+  border-radius: 5px;
+  margin: 0px 15px;
+  position: relative;
+}
+
+.elapsed-time {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  height: 100%;
+  width: 20%;
+  border-radius: 5px;
+}
+
+.controller-point {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  display: block;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.player-controller-time:hover .elapsed-time {
+  background-color: #ADFF2F;
+  cursor: pointer;
+}
+
+.player-controller-time:hover .controller-point {
+  display: block;
+}
+
+.player-controller-song a {
+  color: white;
+  margin: 0px 10px;
+}
+
+.player-controller-song .fa-circle-play {
+  font-size: 1.4rem;
+}
+
+.volume-bar {
+  width: 50%;
+  background-color: gray;
+  height: 5px;
+  border-radius: 5px;
+  margin: 0px 15px;
+  position: relative;
+}
+
+.elapsed-volume {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  height: 100%;
+  width: 20%;
+  border-radius: 5px;
+}
+
+.footer-menu a {
+  color: white;
+  margin: 0px 10px;
+}
+
+.footer-sidebar {
+  display: flex;
+  justify-content: center;
 }
