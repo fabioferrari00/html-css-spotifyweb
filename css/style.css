@@ -95,6 +95,10 @@ main {
   color: white;
 }
 
+.download a:hover {
+  color: white;
+}
+
 .container div a {
   text-decoration: none;
   color: gray;
@@ -150,7 +154,7 @@ main {
   font-size: 1.2rem;
 }
 
-.info-song i:hover {
+.icons-info-song a :hover {
   color: white;
 }
 
