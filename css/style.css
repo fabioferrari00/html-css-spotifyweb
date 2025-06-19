@@ -25,7 +25,6 @@ main {
   width: 250px;
   background-color: black;
   height: 100%;
-  padding-left: 20px;
 }
 
 #sidebar .logo {
@@ -76,6 +75,7 @@ main {
   color: gray;
   padding-top: 20px;
   list-style: none;
+  padding: 20px;
 }
 
 .menu ul li i {
@@ -88,8 +88,11 @@ main {
 }
 
 .menu ul li:hover {
-  color: white;
   border-left: 2px solid #ADFF2F;
+}
+
+.menu ul li a:hover {
+  color: white;
 }
 
 .container div a {
@@ -118,7 +121,7 @@ main {
 }
 
 .playlist ul li {
-  padding-top: 20px;
+  padding: 10px;
   list-style: none;
 }
 
@@ -157,14 +160,10 @@ main {
 }
 
 .cover-song img {
-  width: 200px;
+  width: 80%;
 }
 
-.cover-song .fa-circle-play {
-  transform: translate(-50%, -50%);
-}
-
-.popular .cover-song {
+.popular .cover-song img {
   border-radius: 50%;
 }
 
@@ -274,7 +273,7 @@ main {
 }
 
 .player-controller-song .fa-circle-play {
-  font-size: 1.4rem;
+  font-size: 2rem;
 }
 
 .volume-bar {
@@ -301,9 +300,29 @@ main {
   margin: 0px 10px;
 }
 
+.head-sidebar {
+  height: calc(100% - 100px);
+}
+
 .footer-sidebar {
-  display: flex;
-  justify-content: center;
+  height: 100px;
+}
+
+.footer-sidebar a {
+  text-decoration: none;
+  color: gray;
+  padding-left: 20px;
+}
+
+.footer-sidebar hr {
+  margin: 20px 20px;
+
+}
+
+.footer-sidebar .profile {
+  color: white;
+  padding-left: 20px;
+  font-size: 1.5rem;
 }
 
 .cover-song {
@@ -318,10 +337,10 @@ main {
   position: absolute;
   top: 0;
   left: 0;
-  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
   opacity: 0;
   transition: 0.3s;
 }

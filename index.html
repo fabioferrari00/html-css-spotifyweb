@@ -17,31 +17,39 @@
 
   <main>
     <div id="sidebar">
-      <img class="logo" src="./img/logo.svg" alt="">
-      <div class="menu">
-        <ul>
-          <li><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>
-          <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i> Cerca</a></li>
-          <li>
-            <a href="#"><i class="fa-solid fa-book-open"></i> La tua libreria</a>
-          </li>
-        </ul>
-      </div>
-      <div class="playlist">
-        <h2>PLAYLIST</h2>
-        <ul>
-          <li><a href="#"><i class="fa-solid fa-plus"></i> Crea Playlist</a></li>
-          <li><a href="#">Nome Playlist</a></li>
-          <li><a href="#">Nome Playlist</a></li>
-          <li><a href="#">Nome Playlist</a></li>
-          <li><a href="#">Nome Playlist</a></li>
-          <li><a href="#">Nome Playlist</a></li>
-          <li><a href="#">Nome Playlist</a></li>
-          <li><a href="#">Nome Playlist</a></li>
-        </ul>
+      <div class="head-sidebar">
+        <img class="logo" src="./img/logo.svg" alt="">
+        <div class="menu">
+          <ul>
+            <li><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i> Cerca</a></li>
+            <li>
+              <a href="#"><i class="fa-solid fa-book-open"></i> La tua libreria</a>
+            </li>
+          </ul>
+        </div>
+        <div class="playlist">
+          <h2>PLAYLIST</h2>
+          <ul>
+            <li><a href="#"><i class="fa-solid fa-plus"></i> Crea Playlist</a></li>
+            <li><a href="#">Nome Playlist</a></li>
+            <li><a href="#">Nome Playlist</a></li>
+            <li><a href="#">Nome Playlist</a></li>
+            <li><a href="#">Nome Playlist</a></li>
+            <li><a href="#">Nome Playlist</a></li>
+            <li><a href="#">Nome Playlist</a></li>
+            <li><a href="#">Nome Playlist</a></li>
+          </ul>
+        </div>
       </div>
       <div class="footer-sidebar">
-        <a href="#"><i class="fa-regular fa-circle-down"></i><span>Installa app</span></a>
+        <div class="download">
+          <a href="#"><i class="fa-regular fa-circle-down"></i> <span>Installa app</span></a>
+        </div>
+        <hr>
+        <div class="profile">
+          <i class="fa-solid fa-circle-user"></i><span> Jhon Doe</span>
+        </div>
       </div>
     </div>
     <div id="content">
@@ -76,6 +84,7 @@
             <div class="card text-center">
               <div class="cover-song">
                 <img src="./img/stranger.jpeg" alt="">
+                <div class="overlay"><i class="fa-regular fa-circle-play"></i></div>
               </div>
               <h3 class="title">Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h3>
               <p>Kyle Dixon & Michael Stein</p>
@@ -85,6 +94,7 @@
             <div class="card text-center">
               <div class="cover-song">
                 <img src="./img/aquietplace.jpeg" alt="">
+                <div class="overlay"><i class="fa-regular fa-circle-play"></i></div>
               </div>
               <h3 class="title">A quiet place</h3>
               <p>Subtitle</p>
@@ -94,6 +104,7 @@
             <div class="card text-center">
               <div class="cover-song">
                 <img src="./img/split.jpeg" alt="">
+                <div class="overlay"><i class="fa-regular fa-circle-play"></i></div>
               </div>
               <h3 class="title">Split</h3>
               <p>Subtitle</p>
@@ -103,6 +114,7 @@
             <div class="card text-center">
               <div class="cover-song">
                 <img src="./img/cure.jpeg" alt="">
+                <div class="overlay"><i class="fa-regular fa-circle-play"></i></div>
               </div>
               <h3 class="title">A cure for wellness</h3>
               <p>Subtitle</p>
@@ -112,6 +124,7 @@
             <div class="card text-center">
               <div class="cover-song">
                 <img src="./img/sinister.jpeg" alt="">
+                <div class="overlay"><i class="fa-regular fa-circle-play"></i></div>
               </div>
               <h3 class="title">Sinister</h3>
               <p>Subtitle</p>
@@ -128,13 +141,19 @@
         <div class="row py-20">
           <div class="col-18">
             <div class="card text-center">
-              <img class="cover-song" src="./img/radar.jpeg" alt="">
+              <div class="cover-song">
+                <img src="./img/radar.jpeg" alt="">
+                <div class="overlay"><i class="fa-regular fa-circle-play"></i></div>
+              </div>
               <h3 class="title">Relase Radar</h3>
             </div>
           </div>
           <div class="col-18">
             <div class="card text-center">
-              <img class="cover-song" src="./img/mixdaily.jpeg" alt="">
+              <div class="cover-song">
+                <img src="./img/mixdaily.jpeg" alt="">
+                <div class="overlay"><i class="fa-regular fa-circle-play"></i></div>
+              </div>
               <h3 class="title">Daily Mix 1</h3>
             </div>
           </div>
@@ -149,13 +168,19 @@
         <div class="row py-20">
           <div class="col-18">
             <div class="card text-center">
-              <img class="cover-song" src="./img/youg.jpeg" alt="">
+              <div class="cover-song">
+                <img src="./img/youg.jpeg" alt="">
+                <div class="overlay"><i class="fa-regular fa-circle-play"></i></div>
+              </div>
               <h3 class="title">Lana Del Rey</h3>
             </div>
           </div>
           <div class="col-18">
             <div class="card text-center">
-              <img class="cover-song" src="./img/einaudi.jpeg" alt="">
+              <div class="cover-song">
+                <img src="./img/einaudi.jpeg" alt="">
+                <div class="overlay"><i class="fa-regular fa-circle-play"></i></div>
+              </div>
               <h3 class="title">Ludovico Enaudi</h3>
             </div>
           </div>
@@ -170,7 +195,8 @@
         <div class="info-song px-10">
           <h4 class="title">Sinister</h4>
           <span class="text-gray">Nome Brano</span>
-          <a href="#"><i class="fa-regular fa-heart text-gray px-10"></i></a>
+        </div>
+        <div class="icons-info-song"><a href="#"><i class="fa-regular fa-heart text-gray px-10"></i></a>
           <a href="#"><i class="fa-regular fa-folder text-gray"></i></a>
         </div>
       </div>
