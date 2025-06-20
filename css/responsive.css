@@ -1,1 +1,62 @@
-@media all and (max-width:1200px) {}
+@media all and (max-width:991px) {
+  .col-18 {
+    width: calc(100% / 4);
+  }
+
+  .container {
+    max-width: 500px;
+  }
+
+  .categories ul li {
+    margin-top: 20px;
+  }
+}
+
+@media all and (max-width:768px) {
+
+  .col-18 {
+    width: calc(100% / 2);
+  }
+
+  .head-sidebar {
+    height: calc(100% - 70px);
+  }
+
+  .footer-sidebar {
+    height: 70px;
+  }
+
+  #sidebar {
+    width: 50px;
+  }
+
+  #content {
+    width: calc(100vw - 50px);
+  }
+
+  .playlist {
+    display: none;
+  }
+
+  .home,
+  .search,
+  .library,
+  .username,
+  .download-app,
+  .footer-sidebar hr {
+    display: none;
+  }
+
+  .logo-desktop {
+    display: none;
+  }
+
+  .logo-mobile {
+    display: block;
+  }
+
+  .col-60 {
+    width: ;
+  }
+
+}

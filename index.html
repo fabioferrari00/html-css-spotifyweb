@@ -7,8 +7,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="./css/responsive.css">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
   <title>Spotify</title>
 </head>
 
@@ -19,13 +19,16 @@
   <main>
     <div id="sidebar">
       <div class="head-sidebar">
-        <img class="logo-desktop" src="./img/logo.svg" alt="">
+        <div class="logo">
+          <img class="logo-mobile" src="./img/logo-small.svg" alt="">
+          <img class="logo-desktop" src="./img/logo.svg" alt="">
+        </div>
         <div class="menu">
           <ul>
-            <li><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>
-            <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i> Cerca</a></li>
+            <li><a href="#"><i class="fa-solid fa-house"></i> <span class="home">Home</span></a></li>
+            <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i> <span class="search">Cerca</span></a></li>
             <li>
-              <a href="#"><i class="fa-solid fa-book-open"></i> La tua libreria</a>
+              <a href="#"><i class="fa-solid fa-book-open"></i> <span class="library">La tua libreria</span></a>
             </li>
           </ul>
         </div>
@@ -45,11 +48,11 @@
       </div>
       <div class="footer-sidebar">
         <div class="download">
-          <a href="#"><i class="fa-regular fa-circle-down"></i> <span>Installa app</span></a>
+          <a href="#"><i class="fa-regular fa-circle-down"></i> <span class="download-app">Installa app</span></a>
         </div>
         <hr>
         <div class="profile">
-          <i class="fa-solid fa-circle-user"></i><span> Jhon Doe</span>
+          <i class="fa-solid fa-circle-user"></i><span class="username"> Jhon Doe</span>
         </div>
       </div>
     </div>
@@ -57,7 +60,7 @@
       <div class="header"><a class="btn" href="#">Effettua l'upgrade</a></div>
       <div class="container">
         <div class="categories row justify-center py-20">
-          <ul>
+          <ul class="justify-center">
             <li><a href="#">IN EVIDENZA</a></li>
             <li><a href="#">PODCAST</a></li>
             <li><a href="#">CLASSIFICHE</a></li>
@@ -194,7 +197,8 @@
 
   <footer>
     <div class="row">
-      <div class="col-20 p-10 display-flex align-center"><img class="song-playing" src="./img/sinister.jpeg" alt="">
+      <div class="col-20 display-flex align-center justify-evenly"><img class="song-playing" src="./img/sinister.jpeg"
+          alt="">
         <div class="info-song px-10">
           <h4 class="title">Sinister</h4>
           <span class="text-gray">Nome Brano</span>
