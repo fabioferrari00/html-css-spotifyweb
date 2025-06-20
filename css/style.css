@@ -47,7 +47,7 @@ main {
 }
 
 .container {
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -164,7 +164,7 @@ main {
 }
 
 .cover-song img {
-  width: 80%;
+  width: 90%;
 }
 
 .popular .cover-song img {
@@ -208,6 +208,7 @@ main {
 .p-10 {
   padding: 10px;
 }
+
 
 .display-flex {
   display: flex;
@@ -280,8 +281,14 @@ main {
   font-size: 2rem;
 }
 
+.player-controller-song a i:hover {
+  transform: scale(1.5);
+}
+
+
+
 .volume-bar {
-  width: 50%;
+  width: 30%;
   background-color: gray;
   height: 5px;
   border-radius: 5px;
@@ -301,7 +308,8 @@ main {
 
 .footer-menu a {
   color: white;
-  margin: 0px 10px;
+  font-size: 10px;
+  margin: 0px 5px;
 }
 
 .head-sidebar {
