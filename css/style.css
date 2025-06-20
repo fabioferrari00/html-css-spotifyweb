@@ -27,7 +27,7 @@ main {
   height: 100%;
 }
 
-#sidebar .logo {
+#sidebar .logo-desktop {
   padding: 20px;
   padding-right: 70px;
 }
@@ -47,7 +47,7 @@ main {
 }
 
 .container {
-  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -73,9 +73,8 @@ main {
 
 .menu ul li {
   color: gray;
-  padding-top: 20px;
   list-style: none;
-  padding: 20px;
+  padding: 10px;
 }
 
 .menu ul li i {
@@ -106,6 +105,16 @@ main {
 
 .container div a:hover {
   color: white;
+}
+
+.categories ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.categories ul li {
+  margin-right: 10px;
 }
 
 .playlist h2 {
@@ -222,6 +231,10 @@ main {
   justify-content: flex-end;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .player-controller-time {
   width: 100%;
   transform: translateY(50%);
@@ -327,7 +340,7 @@ main {
 }
 
 .footer-sidebar hr {
-  margin: 20px 20px;
+  margin: 10px 10px;
 
 }
 
