@@ -18,6 +18,11 @@
     width: calc(100% / 2);
   }
 
+
+
+}
+
+@media all and (max-width:576px) {
   .head-sidebar {
     height: calc(100% - 70px);
   }
@@ -54,9 +59,4 @@
   .logo-mobile {
     display: block;
   }
-
-  .col-60 {
-    width: ;
-  }
-
 }
