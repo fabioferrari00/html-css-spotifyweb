@@ -186,7 +186,7 @@ main {
   border-radius: 50%;
 }
 
-.song-playing {
+.song-playing img {
   width: 70px;
   float: left;
 }
@@ -245,6 +245,14 @@ main {
   justify-content: space-evenly;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
+.player-controller {
+  flex-grow: 1;
+}
+
 .player-controller-time {
   width: 100%;
   transform: translatey(50%);
@@ -297,7 +305,7 @@ main {
 
 .player-controller-song a {
   color: white;
-  margin: 0px 10px;
+  margin: 0px 5px;
 }
 
 .player-controller-song .fa-circle-play {
@@ -311,7 +319,7 @@ main {
 
 
 .volume-bar {
-  width: 30%;
+  width: 60px;
   background-color: gray;
   height: 5px;
   border-radius: 5px;
